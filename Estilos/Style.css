@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f3e5d8;
+}
+
+.principal {
+    background-color: hsl(0, 0%, 100%);
+    width: 736px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+
+img {
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2f2b2a;
+}
+
+
+h1,p {
+    margin-left: 20px;
+}
+
+.descripción {
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.descripción2 {
+    margin-top: 20px;
+    background-color: #f3e5d8;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.articulo {
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+
+}
+
+
+
+li {
+    padding-left: 40px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+    padding-top: 10px;
+    color: #6d6363;
+    line-height: 20px;
+   
+}
+
+span {
+    color: #6d6363;
+    font-style: bold;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+}
+
+.Ingredientes2 {
+    line-height: 10px;
+    margin-left: -15px;
+    
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+body > div > article.descripción2 > h1 {
+    color: #6d6363;
+}
+
+.titulo2 {
+    color: red;
+    margin-top: 20px;
+}
+
+#titlos {
+    margin-top: -10px;
+}
+
+.Preparación {
+    padding-left: 10px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+ol {
+    margin-left: 40px;
+}
+
+li.Preparación::marker {
+    font-weight: bold;
+}
+
+.descripción3 {
+    color: #6d6363;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0.5rem;  
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color: #6d6363;
+}
